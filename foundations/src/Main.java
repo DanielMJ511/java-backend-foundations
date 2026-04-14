@@ -5,5 +5,6 @@ public class Main {
 
         Overload o = new Overload();
         System.out.println(o.convertToCentimeters(5,8));
+        System.out.println(o.getDurationString(3945));
     }
 }
