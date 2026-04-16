@@ -1,10 +1,16 @@
+import oop.BankInheritance;
 import oop.Overload;
+
+import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
 
         Overload o = new Overload();
+        BankInheritance b = new BankInheritance(12334,new BigDecimal(545545),"Dani",
+                "dfsdf@ggg.com",4585132);
         System.out.println(o.convertToCentimeters(5,8));
         System.out.println(o.getDurationString(3945));
+        System.out.println(b);
     }
 }
